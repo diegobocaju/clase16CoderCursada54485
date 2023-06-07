@@ -1,0 +1,30 @@
+git init: comando para inicializar git en nuestro proyecto 
+
+1) git --version: Para ver la version de git
+
+2) Configuracion de git
+git config --global user.name 'Derick j. Carcamo' 
+git config --global user.email 'derick_vlk_10@hotmail.es"
+git config --global core.editor "code --wait"
+
+3)trabajando con git en nuestro proyecto en la PC(GIT)
+git remote add origin https://github.com/Derick
+
+Revisamos el estado de nuestro proyecto
+git status
+
+-Comando para agregar a la lisa de elementos
+git add "nombre del archivo" (Selecciona el archivo especifico)
+git add * o git add. (Selecciono todo)
+
+-Comando para darle descripcion al cambio
+git commit -m "Mensaje descriptivo del cambio"
+
+- Comando para enviar nuestros comandos a github
+git push -u origin master
+
+- Comando para listar nuestras ramas y ubicarse en ella misma
+git branch
+
+- Moverse entre ramas
+git checkout master (hombre rama)
